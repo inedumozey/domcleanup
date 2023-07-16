@@ -1,7 +1,7 @@
 {
   "name": "@mozeyinedu/domcleanup",
   "version": "0.1.0",
-  "description": "it purifies the dom against XSS attacks. It is built on top of JSO\u001b[3~\u001b[3~\u001b[3~D\u001b[3~\u001b[3~\u001b[3~\u001b[3~OM and dompurify",
+  "description": "it purifies the dom against XSS attacks. It is built on top of JSDOM and dompurify",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
