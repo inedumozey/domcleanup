@@ -24,7 +24,7 @@
     "url": "https://github.com/inedumozey/domcleanup/issues"
   },
   "homepage": "https://github.com/inedumozey/domcleanup#readme",
-  "peerDependencies": {
+  "dependencies": {
     "dompurify": "^3.0.5",
     "jsdom": "^22.1.0"
   }
