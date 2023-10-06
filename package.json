@@ -1,10 +1,13 @@
 {
   "name": "@mozeyinedu/domcleanup",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "it purifies the dom against XSS attacks. It is built on top of JSDOM and dompurify",
-  "main": "index.js",
+  "main": "lib/esm/index.js",
+  "module": "lib/cjs/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "rm -rf lib && npm run build:esm && npm run build:cjs",
+    "build:esm": "tsc",
+    "build:cjs": "tsc --module commonjs --outDir lib/cjs"
   },
   "repository": {
     "type": "git",
@@ -13,6 +16,7 @@
   "keywords": [
     "dom",
     "clean",
+    "typescript",
     "up",
     "dompurify",
     "XSS",
@@ -27,5 +31,11 @@
   "dependencies": {
     "dompurify": "^3.0.5",
     "jsdom": "^22.1.0"
+  },
+  "devDependencies": {
+    "@types/dompurify": "^3.0.3",
+    "@types/jsdom": "^21.1.3",
+    "@types/node": "^20.8.2",
+    "typescript": "^5.2.2"
   }
 }

@@ -1,0 +1,1 @@
+{"version":3,"file":"domcleanup.js","sourceRoot":"","sources":["../../../src/domcleanup/domcleanup.ts"],"names":[],"mappings":";;;;;AAAA,iCAA8B;AAC9B,0DAAuC;AAEvC,SAAS,UAAU,CAAC,GAAkB;IAClC,MAAM,MAAM,GAAG,IAAI,aAAK,CAAC,EAAE,CAAC,CAAC,MAAM,CAAA;IACnC,MAAM,SAAS,GAAG,IAAA,mBAAe,EAAC,MAAM,CAAC,CAAA;IACzC,OAAO,SAAS,CAAC,QAAQ,CAAC,GAAG,CAAC,CAAC;AACnC,CAAC;AAED,kBAAe,UAAU,CAAA"}
