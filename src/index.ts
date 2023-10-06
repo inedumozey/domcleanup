@@ -1,2 +1,2 @@
-const domcleanup = require('./src/domcleanup')
+import domcleanup from "./domcleanup/domcleanup"
 module.exports = domcleanup

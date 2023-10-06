@@ -1,1 +1,1 @@
-declare const domcleanup: any;
+export {};
