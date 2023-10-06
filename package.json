@@ -1,9 +1,9 @@
 {
   "name": "@mozeyinedu/domcleanup",
-  "version": "0.2.2",
+  "version": "0.2.3",
   "description": "it purifies the dom against XSS attacks. It is built on top of JSDOM and dompurify",
-  "main": "lib/esm/index.js",
-  "module": "lib/cjs/index.js",
+  "module": "lib/esm/index.js",
+  "main": "lib/cjs/index.js",
   "scripts": {
     "build": "rm -rf lib/ && npm run build:esm && npm run build:cjs",
     "build:esm": "tsc",
